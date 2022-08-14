@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Webiste</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+   <section id="header">
+
+        <a href="#"><img src="images/logo.jpg" class="logo" alt="logo"></a>
+
+        <div>
+            <ul  id= "navbar" >
+                
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:24px"></i></a></li>
+                
+            </ul>
+        
+        </div>
+   </section>
+
+  <!-- HERO -->
+  <section id="contact-hero">
+    <h2>#let's_talk</h2>
+    <p>LEAVE A MESSAGE. We love to hear from you!</p>
+  </section>
+
+  <!--map and get in touch-->
+  <section id="info-map" class="section-p1">
+    
+        
+        <div class="info">
+        <div class="list-info">
+        <span>GET IN TOUCH</span>
+        <h2>Visit one of our agency locations  or contact us today</h2>
+        <h3>Head  Office</h3>
+            <ul><li>
+                <i class="fa fa-map-marker" style="font-size:36px"></i>
+                <span>221B Baker Street, London</span>
+            </li>
+            <li>
+                <i class="fa fa-envelope" style="font-size:36px"></i>
+                <span>Contact@gmail.com<span>
+            </li>
+            <li>
+                <i class="fa fa-phone" style="font-size:36px"></i>
+                <span>Contact@gmail.com</span>
+            </li>
+            <li>
+                <i class="fa fa-clock-o" style="font-size:36px"></i>
+                <span>Monday to saturday, 9.00 AM to 16.00 PM</span>
+            </li>
+        </ul>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5216.715071054099!2d-0.16007694354836435!3d51.52260210482677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761acf33628211%3A0x445d7677a88322e1!2s221B%20Baker%20St%2C%20London%20NW1%206XE%2C%20UK!5e0!3m2!1sen!2sin!4v1660284814636!5m2!1sen!2sin" width="700" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+    </div>
+  </section>
+
+  <!-- Form details -->
+  <section id="form" class="section-p1">
+    <div class="form-details">
+        <form action="">
+            <span>LEAVE A MESSAGE</span>
+        <h2>We love to hear from you</h2>
+        <input type="text" class="text" required placeholder="Your Name">
+        <input type="email" class="email" required placeholder="E-mail">
+        <input type="text" class="text" required placeholder="Subject">
+        <input type="text" class="text-box" required placeholder="Your Messsage">
+        <input type="submit" class="submit"> 
+        </form>
+        
+    </div>
+    <div class="people">
+        <div class="people-card">
+                <img src="data:image/jpeg;base64,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" alt="">
+            <div>
+                <h5>John Done</h5>
+                <p>Senior Marketting Manager</p>
+                <p>Contact: Contact@gmail.com</p>
+            </div>
+        </div>
+        <div class="people-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa6Lu7MGMLNMPGmoQIxO0FuMknisr5JV_Uoo6Xz6um86dO2NIWXF8tA7Pt1v-9C4EL5yM&usqp=CAU" alt="">
+        <div>
+            <h5>Lisa Ann</h5>
+            <p>Senior Marketting Manager</p>
+            <p>Contact: Contact@gmail.com</p>
+        </div>
+        </div>
+        <div class="people-card">
+            <img src="data:image/jpeg;base64,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" alt="">
+        <div>
+            <h5>Anemarie Kovenchik</h5>
+            <p>Senior Marketting Manager</p>
+            <p>Contact: Contact@gmail.com</p>
+        </div>
+        </div>
+    </div>
+  </section>
+
+    <!-- Newsletter -->
+   <section id="newsletter" class="section-p1">
+    <div class="news-div1">
+        <h3>Sign Up For Newsletters</h3>
+        <p>Get E-mail updates about our latest jobs and <span>special offers</span></p>
+    </div>
+    <div class="news-div2">
+        
+            <input type="email" placeholder="Your e-mail address" >
+            <button>Sign Up</button>
+        
+    </div>
+   </section>
+
+   <!-- footer -->
+   <footer class="section-p1">
+        <div class="first-col">
+            <img class='logoimage' src="images/logo.jpg" alt="logo">
+            <span>Contact</span>
+            <br>
+            <p><span>Address:</span>221B Baker Street, London</p>
+            <p><span>Phone:</span>+12-3456789, +98-7654321</p>
+            <p><span>Hours:</span>10.00 - 18.00, Mon-Sat</p>
+            <br>
+            <p><span>Follow Us</span></p>
+            <ul>
+                <li><img src="https://cdn-icons.flaticon.com/png/128/2504/premium/2504792.png?token=exp=1659961174~hmac=6131049d1a7a22981ec297831862fe64" alt="facebook"></li>
+                <li><img src="https://cdn-icons-png.flaticon.com/128/733/733579.png" alt="twitter"></li>
+                <li><img src="https://cdn-icons-png.flaticon.com/128/733/733558.png" alt="instagram"></li>
+                <li><img src="https://cdn-icons-png.flaticon.com/128/2111/2111646.png" alt="telegram"></li>
+                <li><img src="https://cdn-icons.flaticon.com/png/128/4494/premium/4494485.png?token=exp=1659961174~hmac=e01f047bd62f8bcf1616f55ab745ef33" alt="youtube"></li>
+            </ul>
+        </div>
+
+        <div class="second-col">
+            <br><br>
+            <span>About</span>
+            <br><br>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Delievery Information</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="second-col">
+            <br><br>
+            <span>My Account</span>
+            <br><br>
+            <ul>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">View Cart</a></li>
+                <li><a href="#">My Wishlist</a></li>
+                <li><a href="#">Track My Order</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+
+        <div id="forth-div" class="second-col">
+            <br><br>
+            <span>Install App</span>
+            <br>
+            <p>From App Store or Google Play</p>
+            <div class="store">
+                <a href="https://www.apple.com/in/app-store/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Available_on_the_App_Store_%28black%29.png" alt="App Store"></a>
+                <a href="https://play.google.com/store/apps" target="_blank"><img src="https://www.eckartsupply.com/images/content/google_play.png" alt="Play Store"></a>
+            </div>
+            <br>
+            <p><strong>Payment Getways</strong> </p>
+            <div class="payment">
+                <img src="https://cdn.iconscout.com/icon/free/png-64/visa-credit-card-1822954-1547549.png" alt="visa">
+                <img src="https://cdn.iconscout.com/icon/free/png-64/mastercard-3384869-2822950.png" alt="mastercard">
+                <img src="https://cdn.iconscout.com/icon/premium/png-64-thumb/paypal-card-1822970-1547565.png" alt="paypal">
+                <img src="https://cdn.iconscout.com/icon/free/png-64/google-pay-2038779-1721670.png" alt="Gpay">
+            </div>
+            
+        </div>
+   </footer>
+   <p>@2022 Practice Project Using HTML, CSS & JavaScript etc</p>
+    
+    <script src="script.js"></script>
+</body>
+</html>
